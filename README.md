@@ -21,14 +21,3 @@ This is the backend server for the Hyperlocal Service Marketplace project, a pla
 - Bcrypt for password hashing
 - Razorpay (for payment integration)
 
-## Folder Structure
-
-backend/
-├── controllers/
-├── middleware/
-├── models/
-├── routes/
-├── config/
-├── server.js
-├── package.json
-└── README.md
