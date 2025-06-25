@@ -8,27 +8,27 @@ const HomeCleaning = () => {
     {
       id: 1,
       name: "Full home Cleaning",
-      image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+      image: "https://media.istockphoto.com/id/957130298/photo/woman-cleaning-the-house.webp?a=1&b=1&s=612x612&w=0&k=20&c=_cSb9kDeAyuT2o9dsDr6_gCaq_YoQxE6aqOkW-3WyZA="
     },
     {
       id: 2,
       name: "Sofa & Carpet Cleaning",
-      image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      image: "https://images.unsplash.com/photo-1675756544970-968f9e3f7ca5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c29mYSUyMGFuZCUyMGNhcnBldCUyMGNsZWFuaW5nfGVufDB8fDB8fHww"
     },
     {
       id: 3,
       name: "Cockroach, Ant & Pest",
-      image: "https://images.unsplash.com/photo-1604656853579-4f35850f7b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      image: "https://plus.unsplash.com/premium_photo-1682126104327-ef7d5f260cf7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVzdCUyMGNvbnRyb2x8ZW58MHx8MHx8fDA%3D"
     },
     {
       id: 4,
       name: "Bathroom Cleaning",
-      image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      image: "https://media.istockphoto.com/id/1364505556/photo/cleaning-time.webp?a=1&b=1&s=612x612&w=0&k=20&c=OBuaYXZIuvE4ySe1u8q-269_xZSJSG0Qxw9IeiuBCJA="
     },
     {
       id: 5,
       name: "Kitchen Cleaning",
-      image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      image: "https://plus.unsplash.com/premium_photo-1679500354879-1843bc88e064?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGtpdGNoZW4lMjBjbGVhbmluZ3xlbnwwfHwwfHx8MA%3D%3D"
     }
   ];
 

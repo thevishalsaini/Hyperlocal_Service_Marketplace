@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div className="mb-6">
-            <h3 className="text-xl font-bold mb-4">Urban Company</h3>
+            <h3 className="text-xl font-bold mb-4">UrbanElite</h3>
             <p className="text-gray-400 mb-4">
               Asia's largest online home services platform. Trusted by 20 million+ happy customers.
             </p>

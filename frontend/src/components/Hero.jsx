@@ -36,21 +36,21 @@ function Hero() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-emerald-800 mb-10 text-center">Home services at your doorstep</h1>
         
-        <div className="flex flex-col md:flex-row gap-6">
+        <div className="flex flex-col md:flex-row gap-6 h-[600px]">
           {/* Left Side - 3x3 Services Grid (50% width) */}
-          <div className="w-full md:w-1/2 border border-emerald-200 rounded-lg">
+          <div className="w-full md:w-1/2 border border-emerald-200 rounded-lg h-full flex flex-col">
             <h1 className='text-2xl pl-10 py-3 text-emerald-800'>What are you looking for?</h1>
-            <div className="grid grid-cols-3 gap-3 m-3">
+            <div className="grid grid-cols-3 gap-3 m-3 flex-grow">
               {serviceCategories.map((service) => (
                 <div 
                   key={service.id}
-                  className="flex flex-col items-center p-3 bg-white rounded-lg cursor-pointer hover:shadow-md transition-all h-32"
+                  className="flex flex-col items-center justify-center p-3 bg-white rounded-lg cursor-pointer hover:shadow-md transition-all"
                   onClick={() => handleServiceClick(service.route)}
                 >
                   <div className={`${service.color} p-3 rounded-full mb-2`}>
                     {service.icon}
                   </div>
-                  <span className="text-s font-medium text-center text-emerald-800">{service.name}</span>
+                  <span className="text-sm font-medium text-center text-emerald-800">{service.name}</span>
                 </div>
               ))}
             </div>
@@ -58,16 +58,16 @@ function Hero() {
 
           {/* Right Side - 2x2 Images Grid (50% width) */}
           <div className="w-full md:w-1/2">
-            <div className="grid grid-cols-2 gap-3 h-full">
+            <div className="grid grid-cols-2 gap-3 aspect-[1/1]">
               {rightSideImages.map((image, index) => (
                 <div 
                   key={index} 
-                  className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all h-48"
+                  className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all"
                 >
                   <img 
                     src={image} 
                     alt={`Service ${index + 1}`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover aspect-square"
                   />
                 </div>
               ))}

@@ -8,17 +8,17 @@ const MassageMen = () => {
     {
       id: 1,
       name: "Stress relief",
-      image: "/images/spa-women.jpg"
+      image: "https://plus.unsplash.com/premium_photo-1661513899257-3247ef6d31ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3RyZXNzJTIwcmVsaWVmJTIwbWVuJTIwbWFzc2FnZXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       id: 2,
       name: "Pain relief",
-      image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      image: "https://media.istockphoto.com/id/521665601/photo/deep-tissue-massage.webp?a=1&b=1&s=612x612&w=0&k=20&c=gBJM-IrgO49TFhhWf3-tIgX1YMFCDNWql9_r83X8epg="
     },
     {
       id: 3,
       name: "Post workout",
-      image: "https://images.unsplash.com/photo-1604656853579-4f35850f7b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      image: "https://images.unsplash.com/photo-1540206235220-7590996b7a5a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9zdCUyMHdvcmtvdXQlMjBtZW4lMjBtYXNzYWdlfGVufDB8fDB8fHww"
     }
   ];
 
