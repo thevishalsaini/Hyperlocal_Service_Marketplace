@@ -8,22 +8,22 @@ const MenSalon = () => {
     {
       id: 1,
       name: "Haircut & beard styling",
-      image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+      image: "https://media.istockphoto.com/id/872361244/photo/man-getting-his-beard-trimmed-with-electric-razor.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZFGPZr_9hJwGPMe-J24YJpf69aCnrzV98FLyhejtgj8="
     },
     {
       id: 2,
       name: "Hair color & Hair spa",
-      image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      image: "https://images.unsplash.com/photo-1571454870742-43c314f3a81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwSGFpciUyMGNvbG9yJTIwJTI2JTIwSGFpciUyMHNwYXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       id: 3,
       name: "Pedicure & Manicure",
-      image: "https://images.unsplash.com/photo-1604656853579-4f35850f7b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      image: "https://media.istockphoto.com/id/180706244/photo/a-man-getting-his-feet-touched-up.webp?a=1&b=1&s=612x612&w=0&k=20&c=j3wPuYjpnwDZQCnFDEHebSA5K-WK3Vs-tKwrV3u3N10="
     },
     {
       id: 4,
       name: "Facial & Cleanup",
-      image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      image: "https://media.istockphoto.com/id/1731969814/photo/skin-doctor-using-hifu-resurfacing-facial-skincare-treatment-technology-with-adult-male-to.webp?a=1&b=1&s=612x612&w=0&k=20&c=qVHZ3XcMYk13e3kPxl5NxHj7gGK5QPZbpSjH8usq4SM="
     }
   ];
 

@@ -12,31 +12,31 @@ const cardData = [
     id: 2,
     title: 'Wall Panel',
     route: "/wall",
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMHBhbmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+    image: 'https://plus.unsplash.com/premium_photo-1681487161166-e228f5d3a2fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2FsbCUyMHBhbmVsc3xlbnwwfHwwfHx8MA%3D%3D'
   },
   {
     id: 3,
     title: 'Native Water Purifier',
     route: "/water-purifier",
-    image: 'https://images.unsplash.com/photo-1508968419-73cca394e8aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0ZXIlMjBwdXJpZmllcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
+    image: 'https://media.istockphoto.com/id/1284077894/photo/pure-water-in-glass-and-water-filters-on-the-blurred-background-household-filtration-system.webp?a=1&b=1&s=612x612&w=0&k=20&c=nxbH9ZhFrrBecEV7MM9d1j9jVeOR38UnT2_L0XrqJCA='
   },
   {
     id: 4,
     title: 'Native Smart Locks',
     route: "/smart-lock",
-    image: 'https://images.unsplash.com/photo-1601760562234-9814eea6663a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjBsb2NrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+    image: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjBsb2NrfGVufDB8fDB8fHww'
   },
   {
     id: 5,
     title: 'Kitchen Cleaning',
     route: "/kitchen-cleaning",
-    image: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2l0Y2hlbiUyMGNsZWFuaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+    image: 'https://media.istockphoto.com/id/666923110/photo/handsome-employee-doing-dishes.webp?a=1&b=1&s=612x612&w=0&k=20&c=10x9qRUWS7lIgABW03jy_qD1KztDC7sZ1UQ00L95qi0='
   },
   {
     id: 6,
     title: 'Full Home Painting',
     route: "/home-painting",
-    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMHBhaW50aW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+    image: 'https://plus.unsplash.com/premium_photo-1723662253911-db2eaa3324be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZ1bGwlMjBob21lJTIwcGFpbnRpbmd8ZW58MHx8MHx8fDA%3D'
   },
   {
     id: 7,
@@ -54,13 +54,13 @@ const cardData = [
     id: 9,
     title: 'Hair Studio for Women',
     route: "/hair-women",
-    image: 'https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHN0dWRpb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
+    image: 'https://plus.unsplash.com/premium_photo-1661632701774-bffbcf314a5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8SGFpciUyMFN0dWRpb3xlbnwwfHwwfHx8MA%3D%3D'
   },
   {
     id: 10,
     title: 'Ac Services & Repair',
     route: "/ac-service",
-    image: 'https://images.unsplash.com/photo-1709432767122-d3cb5326911a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    image: 'https://media.istockphoto.com/id/1284843352/photo/the-technicians-are-cleaning-the-air-conditioner-by-spraying-water-hand-and-water-spray-are.webp?a=1&b=1&s=612x612&w=0&k=20&c=sJyiPhLk0LJdpvJAsswYqeOSwZWypX2qztfCc-XvREk='
   }
 ];
 

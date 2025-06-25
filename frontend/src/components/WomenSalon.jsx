@@ -55,7 +55,7 @@ const WomenSalon = () => {
         {services.map((service) => (
           <div 
             key={service.id} 
-            onClick={() => handleServiceClick(service.route)}
+            onClick={() => handleSeeAll(service.route)}
             className="relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 group cursor-pointer"
           >
             <div className="relative overflow-hidden">

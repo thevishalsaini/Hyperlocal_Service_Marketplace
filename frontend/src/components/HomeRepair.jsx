@@ -18,17 +18,17 @@ const HomeRepair = () => {
     {
       id: 3,
       name: "Manicure",
-      image: "https://images.unsplash.com/photo-1604656853579-4f35850f7b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      image: "https://plus.unsplash.com/premium_photo-1661290231745-15f1ed6fea88?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWFuaWN1cmV8ZW58MHx8MHx8fDA%3D"
     },
     {
       id: 4,
       name: "Facial",
-      image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RmFjaWFsfGVufDB8fDB8fHww"
     },
     {
       id: 5,
       name: "Waxing",
-      image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      image: "https://media.istockphoto.com/id/1131441553/photo/professional-wearing-white-jacket-making-wax-depilation.webp?a=1&b=1&s=612x612&w=0&k=20&c=KstuqR7dBhur90rTVniDEprMKlBb4v_5TucvkM-cKqs="
     }
   ];
 
