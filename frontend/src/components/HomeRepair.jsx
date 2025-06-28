@@ -7,39 +7,46 @@ const HomeRepair = () => {
   const services = [
     {
       id: 1,
-      name: "Hair Styling",
-      image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+      name: "Plumbing",
+      image: "https://images.unsplash.com/photo-1706033915017-b1313a8e5c18?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       id: 2,
-      name: "Makeup",
-      image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      name: "Electrical",
+      image: "https://images.unsplash.com/photo-1649038780045-235e4b6e40b4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       id: 3,
-      name: "Manicure",
-      image: "https://images.unsplash.com/photo-1604656853579-4f35850f7b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      name: "Carpentry",
+      image: "https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       id: 4,
-      name: "Facial",
-      image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+      name: "Painting",
+      image: "https://images.unsplash.com/photo-1721901953926-8c40ac4f6494?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       id: 5,
-      name: "Waxing",
-      image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      name: "AC Repair",
+      image: "https://images.unsplash.com/photo-1709432767122-d3cb5326911a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ];
 
   const handleCardClick = () => {
-    navigate('/home-repair');
+    navigate('/services');
   };
 
-return (
+  return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="text-center mb-12">
+        <h1 className="text-4xl font-bold text-emerald-800 mb-4">Professional Home Repair Services</h1>
+        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          Trust our skilled professionals to handle all your home maintenance and repair needs with quality service and expertise.
+        </p>
+      </div>
+
       <div className="flex justify-between items-center mb-8">
-        <h2 className="text-2xl font-bold text-emerald-800">Home Repair</h2>
+        <h2 className="text-2xl font-bold text-emerald-800">Our Top Services</h2>
         <button 
           onClick={handleCardClick}
           className="text-amber-600 hover:text-amber-800 font-medium flex items-center transition-all duration-300 transform hover:translate-x-1 border p-2 rounded-lg cursor-pointer"

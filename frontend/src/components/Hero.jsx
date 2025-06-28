@@ -8,15 +8,15 @@ function Hero() {
 
   // Service categories data - 9 services with routes
   const serviceCategories = [
-    { id: 1, name: 'Salon', icon: <FiScissors size={28} />, color: 'bg-pink-100', route: '/salon' },
-    { id: 2, name: 'Spa', icon: <FiSmile size={28} />, color: 'bg-purple-100', route: '/spa' },
-    { id: 3, name: 'Hair', icon: <FiUser size={28} />, color: 'bg-blue-100', route: '/hair' },
-    { id: 4, name: 'Grooming', icon: <FiScissors size={28} />, color: 'bg-green-100', route: '/grooming' },
-    { id: 5, name: 'Massage', icon: <FiSmile size={28} />, color: 'bg-yellow-100', route: '/massage' },
-    { id: 6, name: 'Repairs', icon: <FiTool size={28} />, color: 'bg-red-100', route: '/repairs' },
-    { id: 7, name: 'Cleaning', icon: <MdOutlineCleaningServices size={28} />, color: 'bg-indigo-100', route: '/cleaning' },
-    { id: 8, name: 'Plumber', icon: <FiDroplet size={28} />, color: 'bg-teal-100', route: '/plumber' },
-    { id: 9, name: 'Electrician', icon: <MdOutlineElectricalServices size={28} />, color: 'bg-orange-100', route: '/electrician' }
+    { id: 1, name: 'Salon', icon: <FiScissors size={28} />, color: 'bg-pink-100', route: '/services' },
+    { id: 2, name: 'Spa', icon: <FiSmile size={28} />, color: 'bg-purple-100', route: '/services' },
+    { id: 3, name: 'Hair', icon: <FiUser size={28} />, color: 'bg-blue-100', route: '/services' },
+    { id: 4, name: 'Grooming', icon: <FiScissors size={28} />, color: 'bg-green-100', route: '/services' },
+    { id: 5, name: 'Massage', icon: <FiSmile size={28} />, color: 'bg-yellow-100', route: '/services' },
+    { id: 6, name: 'Repairs', icon: <FiTool size={28} />, color: 'bg-red-100', route: '/services' },
+    { id: 7, name: 'Cleaning', icon: <MdOutlineCleaningServices size={28} />, color: 'bg-indigo-100', route: '/services' },
+    { id: 8, name: 'Plumber', icon: <FiDroplet size={28} />, color: 'bg-teal-100', route: '/services' },
+    { id: 9, name: 'Electrician', icon: <MdOutlineElectricalServices size={28} />, color: 'bg-orange-100', route: '/services' }
   ];
 
   // Right side images

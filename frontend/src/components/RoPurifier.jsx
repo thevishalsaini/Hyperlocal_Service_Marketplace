@@ -9,7 +9,7 @@ const RoPurifier = () => {
       {/* Card Container - Responsive width */}
       <div 
         className="w-full max-w-[1200px] bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-lg my-5"
-        onClick={() => navigate('/ro-purifier')}
+        onClick={() => navigate('/services')}
       >
         {/* Image Container - Shows full image without cropping */}
         <div className="w-full flex justify-center bg-gray-100">

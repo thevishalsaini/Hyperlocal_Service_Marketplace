@@ -9,7 +9,7 @@ const SmartHome = () => {
       {/* Card Container - Responsive width with max-width */}
       <div 
         className="w-full max-w-[1200px] bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-lg my-5"
-        onClick={() => navigate('/smart-home')}
+        onClick={() => navigate('/services')}
       >
         {/* Image Container - Flexible height with centered image */}
         <div className="w-full flex justify-center items-center bg-gray-100 min-h-[200px]">

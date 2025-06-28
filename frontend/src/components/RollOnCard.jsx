@@ -9,7 +9,7 @@ const RollOnCard = () => {
       {/* Card Container - Responsive width */}
       <div 
         className="w-full max-w-[1200px] bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-lg mt-5 mb-5"
-        onClick={() => navigate('/wall')}
+        onClick={() => navigate('/services')}
       >
         {/* Image Container - Maintains aspect ratio */}
         <div className="relative pb-[40%] md:pb-[35%] overflow-hidden bg-gray-100">

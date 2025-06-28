@@ -5,61 +5,61 @@ const cardData = [
   {
     id: 1,
     title: 'Insta Help',
-    route: "/inst",
-    image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5zdGFncmFtJTIwaGVscHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
+    route: "/services",
+    image: 'https://images.unsplash.com/photo-1634906344066-2c9dfd5e8ef7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 2,
     title: 'Wall Panel',
-    route: "/wall",
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMHBhbmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+    route: "/services",
+    image: 'https://images.unsplash.com/photo-1701422522251-332666e37ed3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 3,
     title: 'Native Water Purifier',
-    route: "/water-purifier",
-    image: 'https://images.unsplash.com/photo-1508968419-73cca394e8aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0ZXIlMjBwdXJpZmllcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
+    route: "/services",
+    image: 'https://images.unsplash.com/photo-1570615541379-e6b7ab6d4eb9?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 4,
     title: 'Native Smart Locks',
-    route: "/smart-lock",
-    image: 'https://images.unsplash.com/photo-1601760562234-9814eea6663a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjBsb2NrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+    route: "/services",
+    image: 'https://images.unsplash.com/photo-1646753002835-74296cb27a83?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 5,
     title: 'Kitchen Cleaning',
-    route: "/kitchen-cleaning",
-    image: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2l0Y2hlbiUyMGNsZWFuaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+    route: "/services",
+    image: 'https://images.unsplash.com/photo-1736433622548-4adbbc1c2cf2?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 6,
     title: 'Full Home Painting',
-    route: "/home-painting",
-    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMHBhaW50aW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+    route: "/services",
+    image: 'https://images.unsplash.com/photo-1633466985376-01a6457f3176?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 7,
     title: 'Laptop',
-    route: "/laptop",
-    image: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+    route: "/services",
+    image: 'https://images.unsplash.com/photo-1658240527554-9cf987b4de49?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 8,
     title: 'Spa Ayurveda',
-    route: "/spa-ayurveda",
+    route: "/services",
     image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhJTIwYXl1cnZlZGF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
   },
   {
     id: 9,
     title: 'Hair Studio for Women',
-    route: "/hair-women",
+    route: "/services",
     image: 'https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHN0dWRpb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
   },
   {
     id: 10,
     title: 'Ac Services & Repair',
-    route: "/ac-service",
+    route: "/services",
     image: 'https://images.unsplash.com/photo-1709432767122-d3cb5326911a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }
 ];

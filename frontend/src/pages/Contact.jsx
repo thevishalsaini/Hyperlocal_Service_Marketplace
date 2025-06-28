@@ -1,11 +1,11 @@
-import { 
-  FaPhone, 
-  FaEnvelope, 
-  FaMapMarkerAlt, 
+import {
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
   FaClock,
-  FaFacebook, 
-  FaTwitter, 
-  FaInstagram, 
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
   FaLinkedin,
   FaPaperPlane,
   FaChevronDown,
@@ -44,7 +44,7 @@ const Contact = () => {
       <section className="text-center mb-16">
         <h1 className="text-4xl font-bold text-emerald-800 mb-4">Contact Us</h1>
         <p className="text-xl text-emerald-700 max-w-3xl mx-auto">
-          At Urban Company, we believe in providing exceptional customer service. Our dedicated support team is available to assist you.
+          At Urban Elite, we believe in providing exceptional customer service. Our dedicated support team is available to assist you.
         </p>
       </section>
 
@@ -78,7 +78,7 @@ const Contact = () => {
               <h3 className="text-xl font-semibold text-emerald-800 mb-2">Email Support</h3>
               <p className="text-emerald-700 mb-2">Response within 24 hours</p>
               <a href="mailto:support@urbancompany.com" className="text-amber-600 font-medium hover:text-amber-700">
-                support@urbancompany.com
+                support@urbanelite.com
               </a>
             </div>
 
@@ -89,8 +89,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-semibold text-emerald-800 mb-2">Corporate Office</h3>
               <p className="text-emerald-700">
-                123 Service Lane<br />
-                Tech City, TC 10001
+                123, Sector 34<br />
+                Noida, UP 201301
               </p>
             </div>
 
@@ -103,7 +103,7 @@ const Contact = () => {
               <p className="text-emerald-700">
                 Monday - Friday: 9am - 6pm<br />
                 Saturday: 10am - 4pm<br />
-                Sunday: Closed
+                Sunday: 9am - 8pm
               </p>
             </div>
           </div>
@@ -134,18 +134,22 @@ const Contact = () => {
           <div className="bg-white p-6 rounded-xl shadow-md border border-emerald-100">
             <h3 className="text-xl font-semibold text-emerald-800 mb-4">Visit Our Headquarters</h3>
             <p className="text-emerald-700 mb-4">
-              While we primarily operate online, you're welcome to visit our corporate office.
+              While we primarily operate online, you're welcome to visit our corporate office in Noida.
             </p>
             <div className="aspect-w-16 aspect-h-9">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209179042!2d-73.9878449241646!3d40.74844097138996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1629997982547!5m2!1sen!2sus" 
-                width="100%" 
-                height="300" 
-                style={{ border: 0 }} 
-                allowFullScreen 
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.716112060885!2d77.32551031508094!3d28.54554498245028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a16f5f3f0d%3A0x9a4e8a7a9a6b1b8e!2sSector%2034%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1629997982547!5m2!1sen!2sin"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
                 loading="lazy"
                 className="rounded-lg"
+                title="Urban Elite Headquarters in Noida"
               ></iframe>
+            </div>
+            <div className="mt-4 text-emerald-700">
+              <p><strong>Address:</strong> Sector 34, Noida, Uttar Pradesh 201307</p>
             </div>
           </div>
         </div>
@@ -160,51 +164,51 @@ const Contact = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div>
                 <label className="block text-emerald-800 font-medium mb-2">Full Name*</label>
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   name="name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300" 
-                  required 
+                  className="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300"
+                  required
                 />
               </div>
               <div>
                 <label className="block text-emerald-800 font-medium mb-2">Email*</label>
-                <input 
-                  type="email" 
+                <input
+                  type="email"
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300" 
-                  required 
+                  className="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300"
+                  required
                 />
               </div>
             </div>
             <div className="mb-6">
               <label className="block text-emerald-800 font-medium mb-2">Subject*</label>
-              <input 
-                type="text" 
+              <input
+                type="text"
                 name="subject"
                 value={formData.subject}
                 onChange={handleInputChange}
-                className="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300" 
-                required 
+                className="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300"
+                required
               />
             </div>
             <div className="mb-6">
               <label className="block text-emerald-800 font-medium mb-2">Message*</label>
-              <textarea 
+              <textarea
                 name="message"
-                rows="5" 
+                rows="5"
                 value={formData.message}
                 onChange={handleInputChange}
-                className="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300" 
+                className="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300"
                 required
               ></textarea>
             </div>
-            <button 
-              type="submit" 
+            <button
+              type="submit"
               className="w-full bg-amber-500 text-white py-3 px-4 rounded-lg font-medium hover:bg-amber-600 transition flex items-center justify-center gap-2 shadow-md hover:shadow-lg"
             >
               <FaPaperPlane />
@@ -244,7 +248,7 @@ const Contact = () => {
             }
           ].map((item, index) => (
             <div key={index} className="border-b border-emerald-100 last:border-b-0">
-              <button 
+              <button
                 className="flex justify-between items-center w-full p-6 text-left font-medium text-emerald-800 hover:bg-emerald-50 transition"
                 onClick={() => toggleFAQ(index)}
               >
